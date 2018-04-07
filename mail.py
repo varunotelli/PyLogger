@@ -38,7 +38,3 @@ schedule.every().day.at("11:58").do(sendmail)
 while True:
     schedule.run_pending()
     time.sleep(1)
-
-
-#t2 = threading.Thread(target=task2)
-#os.system("python keylogger.py")
