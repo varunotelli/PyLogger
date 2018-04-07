@@ -1,16 +1,12 @@
 # Python code to illustrate Sending mail from 
 # your Gmail account 
 import smtplib
-
 import time
 import os
 import datetime
 import pip
-pip.main(['install','schedule'])
 import schedule
-#import threading
-#from apscheduler.schedulers.blocking import BlockingScheduler
-#import subprocess
+
 f=open('output.txt','w').close()
 
 
